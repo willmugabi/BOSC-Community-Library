@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Resources - BOSC Library</title>
+</head>
+<body>
+    <h1>Resource Search</h1>
+    <input type="text" id="searchBox" placeholder="Search books, articles...">
+    <button onclick="search()">Search</button>
+    <div id="results"></div>
+
+    <script>
+        const resources = [
+            "Introduction to Computing",
+            "Community Health Guide",
+            "Agricultural Best Practices",
+            "Financial Literacy Basics"
+        ];
+
+        function search() {
+            const query = document.getElementById('searchBox').value.toLowerCase();
+            const results = resources.filter(r => r.toLowerCase().includes(query));
+            document.getElementById('results').innerHTML = results.map(r => `<p>${r}</p>`).join('');
+        }
+    </script>
+</body>
+</html>
