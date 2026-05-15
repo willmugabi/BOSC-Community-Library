@@ -1,25 +1,18 @@
 # BOSC Community Library
 
-Welcome to the BOSC Community Library! This is a community library resource management system.
+A digital resource management system for community libraries in Uganda.
 
-## Overview
+## Features
+- Searchable resource database
+- Luganda language support
+- Easy navigation system
 
-This project provides resources for the Bioinformatics Open Source Conference (BOSC) community.
+## Installation
+1. Clone this repository
+2. Open index.html in your browser
 
-## Getting Started
-
-1. Clone the repository
-2. Follow the contribution guidelines
-3. Submit your contributions
-
-## Contributing
-
-We welcome contributions from the community! Please refer to `CONTRIBUTING.md` for guidelines.
+## Usage
+Browse resources by category or use the search feature.
 
 ## License
-
-This project is open source and available under an open license.
-
-## Support
-
-For questions or issues, please open a GitHub issue in this repository.
+MIT License
