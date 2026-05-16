@@ -1,9 +1,9 @@
 # Submission Audit Log
 **Project:** BOSC Community Library
-**Submission Date:** [TODAY'S DATE]
+**Submission Date:** 18/05/2026
 
 ## Repository Information
-- URL: [PASTE YOUR GITHUB REPO URL HERE]
+- URL: https://github.com/willmugabi/BOSC-Community-Library
 - Branch: main, develop
 
 ## Commit History
